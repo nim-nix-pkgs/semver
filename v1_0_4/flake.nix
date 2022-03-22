@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-semver-v1_0_4.flake = false;
+  inputs.src-semver-v1_0_4.ref   = "refs/tags/v1.0.4";
   inputs.src-semver-v1_0_4.owner = "euantorano";
-  inputs.src-semver-v1_0_4.ref   = "v1_0_4";
   inputs.src-semver-v1_0_4.repo  = "semver.nim";
   inputs.src-semver-v1_0_4.type  = "github";
   
