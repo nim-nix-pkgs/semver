@@ -1,6 +1,0 @@
-nimcache
-.env
-tests/*
-!tests/*.nim
-!tests/nim.cfg
-.vscode
